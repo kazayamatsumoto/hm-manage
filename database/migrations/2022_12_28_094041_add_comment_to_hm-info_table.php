@@ -13,7 +13,7 @@ class AddCommentToHmInfoTable extends Migration
      */
     public function up()
     {
-        Schema::table('hm-info', function (Blueprint $table) {
+        Schema::table('project_info', function (Blueprint $table) {
 
             //カラムにコメントを代入
             //プロジェクト名
@@ -29,7 +29,7 @@ class AddCommentToHmInfoTable extends Migration
      */
     public function down()
     {
-        Schema::table('hm-info', function (Blueprint $table) {
+        Schema::table('project_info', function (Blueprint $table) {
             //
         });
     }
