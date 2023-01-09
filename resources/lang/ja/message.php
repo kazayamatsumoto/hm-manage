@@ -38,7 +38,6 @@ return [
     'hm_manage_add' => '工数入力',
     'Effort_List' => '工数一覧',
     'Master_Maintenance' => 'マスタメンテ',
-    'LABEL_KUBUN' => '価格区分',
     'LABEL_SLIP_DATE' => '対象日付',
     'LABEL_STATUS' => '状態',
     'LABEL_TUBE_FLAG' => '製品分類',
